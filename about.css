@@ -1,0 +1,54 @@
+body {
+  background: rgb(111, 64, 143);
+  background: linear-gradient(
+    90deg,
+    rgba(111, 64, 143, 1) 0%,
+    rgba(214, 15, 15, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: white !important;
+}
+body > h2 {
+  text-align: center;
+}
+.navbar {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 35px;
+}
+.navbar_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.navbar_right > a {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+}
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.left {
+  display: flex;
+  flex: 0.4;
+}
+.left > img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+.right {
+  flex: 0.6;
+}
+.right-text {
+  font-size: 20px;
+  line-height: 2;
+}
